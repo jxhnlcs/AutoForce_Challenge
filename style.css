@@ -28,12 +28,16 @@
 
 /* Main ( apresentação carro ) */
 
+.main{
+margin-top: -35px;
+}
+
 .row{
   display: flex;
 }
 
 .left-main{
-  width: 50vw;
+  width: 45vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -50,11 +54,10 @@
   height: 100%;
   background: #0026ff;
   clip-path: circle(400px at right 500px);
-
 }
 
 .alltext{
-  margin-bottom: 250px;
+  margin-bottom: 190px;
 }
 
 .titlecar{
@@ -95,6 +98,7 @@
 }
 
 .right-main{
+    width: 55vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -103,6 +107,12 @@
 }
 
 .img_car{
-  margin-bottom: 280px;
-  z-index: 200;
+  width: 900px;
+  z-index: 999;
+}
+
+.carprice{
+  margin-bottom: 220px;
+  z-index: 999;
+  margin-right: 300px;
 }

@@ -3,6 +3,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -26,7 +27,7 @@
     height: 45px;
   }
 
-/* Main ( apresentação carro ) */
+/* Main (car apresentation ) */
 
 .main{
 margin-top: -35px;
@@ -56,11 +57,11 @@ margin-top: -35px;
   clip-path: circle(300px at right 400px);
 }
 
-.alltext{
+.all-text{
   margin-bottom: 190px;
 }
 
-.titlecar{
+.title-car{
     font-size: 70px;
     font-weight: bold;
     cursor: default;
@@ -73,7 +74,7 @@ margin-top: -35px;
     cursor: default;
 }
 
-.textcar{
+.text-car{
     margin-top: 10px;
     font-size: 20px;
     font-weight: bold;
@@ -107,20 +108,20 @@ margin-top: -35px;
     align-items: center;
 }
 
-.img_car{
+.img-car{
   width: 900px;
   z-index: 999;
 }
 
-.carprice{
+.car-price{
   margin-bottom: 220px;
   z-index: 999;
   margin-right: 300px;
 }
 
-/* Conteudo de texto */
+/*Text Content */
 
-.contentbottom{
+.content-bottom{
   margin-top: -120px;
   background: blue;
   padding-bottom: 80px;
@@ -138,7 +139,7 @@ margin-top: -35px;
   text-align: justify;
 }
 
-.contenttext{
+.content-text{
   font-size: 20px;
   margin-bottom: 20px;
 }
@@ -149,8 +150,7 @@ margin-top: -35px;
   margin-top: 35px;
 }
 
-
-.titlevideo{
+.title-video{
     font-size: 55px;
     font-weight: bold;
     cursor: default;
@@ -160,10 +160,101 @@ margin-top: -35px;
     height: 100%;
 }
 
-.videocontent{
+.video-content{
   margin-top: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
+}
+
+/* Datasheet */
+
+.content-datasheet{
+  margin-top: 90px;
+  background: blue;
+}
+
+.technical-table {
+  margin-top: 2rem;
+  padding: 3rem 2rem;
+
+  background-color: blue;
+  display: grid;
+  grid-template-columns: 3fr 5fr;
+  column-gap: 2rem;
+}
+
+.technical-table__car-identifier {
+  padding: 0 1rem;
+}
+
+.technical-table__car-identifier h3 {
+  font-weight: bold;
+  font-size: 1.75rem;
+  color: rgb(255, 255, 255);
+}
+
+.technical-table__car-identifier p {
+  font-weight: bold;
+  font-size: .8rem;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.technical-table__car-identifier img {
+  width: 100%;
+}
+
+.technical-table__car-data {
+  padding: 0 1rem;
+}
+
+.car-data--header {
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+  border-bottom: 1px solid #E1E1E1;
+}
+
+.car-data--header-item {
+  flex: 1;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.car-data--header-item p {
+  display: inline-flex;
+  padding: 0 .3rem .8rem;
+  transition: all .2s ease;
+  border-bottom: 3px solid transparent;
+}
+
+.car-data--header-item:hover p {
+  color: #ffffff;
+}
+
+.car-data--header-item.active p {
+  font-weight: bold;
+  border-bottom: 3px solid #ffffff;
+}
+
+.car-data--content {
+  padding-top: 1.5rem;
+}
+
+.car-data--content-item {
+  display: none;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 12px;
+  column-gap: 15px;
+}
+
+.car-data--content-item.active {
+  display: grid;
+}
+
+.car-data--content-item p {
+  font-size: 14px;
 }

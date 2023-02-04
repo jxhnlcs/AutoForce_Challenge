@@ -78,6 +78,7 @@ margin-top: -35px;
     font-size: 20px;
     font-weight: bold;
     cursor: default;
+    text-align: justify;
 }
 
 .btn{
@@ -115,4 +116,34 @@ margin-top: -35px;
   margin-bottom: 220px;
   z-index: 999;
   margin-right: 300px;
+}
+
+.contentbottom{
+  background: blue;
+  padding-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.content{
+  margin-top: 90px;
+  color: white;
+  width: 90%;
+  margin-left: 100px;
+  text-align: justify;
+}
+
+.contenttext{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* Video */
+
+.titlevideo{
+    font-size: 55px;
+    font-weight: bold;
+    cursor: default;
 }

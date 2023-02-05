@@ -273,6 +273,7 @@ margin-top: -35px;
   align-items: center;
   justify-content: center;
   height: 100%;
+  border-radius: 20px;
 }
 
 
@@ -296,11 +297,12 @@ margin-top: -35px;
 .slide{
   width: 25%;
   position: relative;
-  transition: 2s;
+  transition: 0.5s;
 }
 
 .slide img{
   width: 1280px;
+  border-radius: 20px;
 }
 
 .manual-navigation{
@@ -313,7 +315,7 @@ margin-top: -35px;
 
 .manual-btn{
   border: 2px solid rgb(0, 0, 0);
-  padding: 5px;
+  padding: 5px 10px;
   border-radius: 10px;
   cursor: pointer;
   transition: 1s;
@@ -351,9 +353,10 @@ margin-top: -35px;
   margin-left: -125%;
 }
 
+
 .navigation-auto div{
-  border: 2px solid blueviolet;
-  padding: 5px;
+  border: 2px solid rgb(45, 5, 82);
+  padding: 5px 10px;
   border-radius: 10px;
   cursor: pointer;
   transition: 1s;

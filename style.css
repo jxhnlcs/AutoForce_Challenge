@@ -801,6 +801,12 @@ margin-top: -55px;
   }
 }
 
+@media screen and (max-width: 1368px) {
+  .all-text{
+    margin-bottom: 50px;
+  }
+}
+
 @media screen and (max-width: 600px) { /* Responsivity smarthphones */
   
   body, html{

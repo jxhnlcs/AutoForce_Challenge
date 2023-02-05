@@ -1,3 +1,5 @@
+/* Datasheet */
+
 (() => {
   const nav = document.querySelectorAll('.technical-table__car-data .car-data--header-item')
   const contents = document.querySelectorAll('.car-data--content-item')
@@ -23,3 +25,19 @@
     })
   })
 })()
+
+/* Gallery */
+let count = 1;
+document.getElementById("radio1").checked = true;
+
+setInterval(function(){
+  nextImage();
+}, 5000)
+
+function nextImage(){
+  count++
+  if(count>6){
+    count = 1
+  }
+  document.getElementById("radio"+count).checked = true;
+}

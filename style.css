@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700;900&display=swap');
 
+
 *{
     padding: 0;
     margin: 0;
@@ -114,6 +115,11 @@ margin-top: -55px;
   z-index: 999;
 }
 
+.car-price{
+  margin-bottom: 350px;
+  margin-right: 220px;
+}
+
 /*Text Content */
 
 .content-bottom{
@@ -124,13 +130,13 @@ margin-top: -55px;
   align-items: center;
   justify-content: center;
   height: 100%;
+  width: 100%;
 }
 
 .content{
   margin-top: 90px;
   color: white;
   width: 90%;
-  margin-left: 100px;
   text-align: justify;
   cursor: default;
 }
@@ -138,6 +144,11 @@ margin-top: -55px;
 .content-text{
   font-size: 20px;
   margin-bottom: 20px;
+  margin-left: 80px;
+}
+
+.bmw-text{
+  margin-left: 70px;
 }
 
 /* Video */
@@ -588,6 +599,8 @@ margin-top: -55px;
       z-index: 999;
       margin-left: 200px;
       cursor: default;
+      margin-top: -40px;
+      margin-bottom: 400px;
     }
 
 
@@ -721,6 +734,11 @@ margin-top: -55px;
 
   .technical-table__car-identifier img {
     width: 80%;
+    margin-left: 100px;
+}
+
+.technical-table__car-identifier .cartech {
+  margin-left: 200px;
 }
 
   .technical-sheet__highlight {
@@ -741,7 +759,12 @@ margin-top: -55px;
     list-style-type: none;
     width: 20px;
     border-bottom: 1px solid #E1E1E1;
+    margin-left: 150px;
   }
+
+  .car-data--content {
+    margin-left: 150px;
+}
 
   .images-gallery__nav-item img {
     width: 135px;
@@ -780,6 +803,10 @@ margin-top: -55px;
 
 @media screen and (max-width: 600px) { /* Responsivity smarthphones */
   
+  body, html{
+    overflow-x: hidden;
+
+  }
    /* Nav */
   .autoforce-logo {
     height: 45px;
@@ -881,9 +908,6 @@ margin-top: -55px;
   .content{
     margin-top: 90px;
     color: white;
-    text-align: justify;
-    cursor: default;
-    margin-right: 60px;
   }
   
   .content-text{
@@ -944,9 +968,6 @@ margin-top: -55px;
     margin-bottom: 100px;
 }
 
-.car-data--content-item p {
-  margin-right: 100px;
-}
 
 .car-data--header {
   display: flex;

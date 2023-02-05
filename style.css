@@ -109,21 +109,15 @@ margin-top: -35px;
 }
 
 .img-car{
+  margin-top: 150px;
   width: 700px;
   z-index: 999;
-}
-
-.car-price{
-  margin-bottom: 220px;
-  z-index: 999;
-  margin-right: 300px;
-  cursor: default;
 }
 
 /*Text Content */
 
 .content-bottom{
-  margin-top: -120px;
+  margin-top: -100px;
   background: blue;
   padding-bottom: 80px;
   display: flex;
@@ -914,7 +908,8 @@ margin-top: -35px;
   }
 
   .video h3{
-    font-size: 40px;
+    font-size: 30px;
+    margin-left: 50px;
   }
   
   .slide img{
@@ -925,7 +920,7 @@ margin-top: -35px;
   
   .manual-navigation{
     position: absolute;
-    width: 400px;
+    width: 390px;
     margin-top: -90px;
     display: flex;
     justify-content: center;
@@ -933,7 +928,7 @@ margin-top: -35px;
   
   .navigation-auto{
     position: absolute;
-    width: 400px;
+    width: 390px;
     margin-top: 310px;
     display: flex;
     justify-content: center;
@@ -956,7 +951,7 @@ margin-top: -35px;
 .car-data--header {
   display: flex;
   list-style-type: none;
-  margin-left: -100px;
+  margin-left: -110px;
   width: 20px;
   border-bottom: 1px solid #E1E1E1;
 }

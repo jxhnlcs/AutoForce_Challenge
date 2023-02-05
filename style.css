@@ -828,19 +828,11 @@ margin-top: -35px;
   }
 }
 
-@media screen and (max-width: 600px) { 
-  .technical-sheet__highlights {
-    grid-template-columns: 1fr;
-  }
+@media screen and (max-width: 600px) {
+  
+   /* Nav */
 
-  .offer-description h2 {
-    font-size: 2rem;
-  }
-}
-
-  /* Nav */
-
-  .header {
+   .header {
     width: 100%;
     box-shadow: 0 2px 4px rgba(0,0,0,.15);
     position: relative;
@@ -1120,3 +1112,14 @@ margin-top: -35px;
   }
   
   
+
+  .technical-sheet__highlights {
+    grid-template-columns: 1fr;
+  }
+
+  .offer-description h2 {
+    font-size: 2rem;
+  }
+}
+
+ 

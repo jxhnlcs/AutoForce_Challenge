@@ -815,7 +815,7 @@ margin-top: -55px;
   
     /* main */
     .main{
-      margin-top: -150px;
+      margin-top: -50px;
     }
       
       .row{
@@ -863,7 +863,7 @@ margin-top: -55px;
       
       .btn{
         margin-top: 20px;
-        margin-left:50px;
+        margin-left:35px;
           text-decoration: none;
           font-weight: bold;
           font-size: 25px;
@@ -958,8 +958,18 @@ margin-top: -55px;
     justify-content: center;
   }
 
+  .technical-table__car-identifier .cartech {
+    margin-left: 30px;
+}
+
   .technical-table__car-identifier img {
-    width: 60%;
+    width: 100%;
+    margin-left: -1px;
+}
+
+.car-data--content-item {
+  grid-template-columns: 1fr;
+  margin-left: -100px;
 }
 
   .technical-table {
@@ -972,7 +982,7 @@ margin-top: -55px;
 .car-data--header {
   display: flex;
   list-style-type: none;
-  margin-left: -110px;
+  margin-left: 5px;
   width: 20px;
   border-bottom: 1px solid #E1E1E1;
 }

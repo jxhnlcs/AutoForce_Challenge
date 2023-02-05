@@ -507,11 +507,10 @@ margin-top: -35px;
 
 
   /* main */
-
-  .main{
-    margin-top: 50px;
-    }
     
+  .main{
+    margin-top: -200px;
+  }
     .row{
       flex-direction: row;
     }
@@ -537,13 +536,14 @@ margin-top: -35px;
     }
     
     .title-car{
-        font-size: 50px;
+        font-size: 30px;
         font-weight: bold;
         cursor: default;
+        margin-left: 50px;
     }
     
     .thex1{
-      font-size: 55px;
+      font-size: 35px;
         font-weight: bold;
         color: blue;
         cursor: default;
@@ -551,15 +551,18 @@ margin-top: -35px;
     
     .text-car{
         margin-top: 10px;
-        font-size: 20px;
+        margin-left: 50px;
+        width: 80%;
+        font-size: 14px;
         font-weight: bold;
         cursor: default;
         text-align: justify;
     }
     
     .btn{
-      margin-top: 10px;
+        margin-top: 10px;
         text-decoration: none;
+        margin-left: 50px;
         font-weight: bold;
         font-size: 20px;
         color: white;
@@ -582,15 +585,14 @@ margin-top: -35px;
     }
     
     .img-car{
-      margin-right: 50px;
-      width: 500px;
+      margin-right: 120px;
+      width: 360px;
       z-index: 999;
     }
     
     .car-price{
-      margin-bottom: 220px;
       z-index: 999;
-      margin-left: 300px;
+      margin-left: 200px;
       cursor: default;
     }
 
@@ -598,7 +600,7 @@ margin-top: -35px;
     /*Text Content */
 
   .content-bottom{
-  margin-top: -120px;
+  margin-top: -400px;
   background: blue;
   padding-bottom: 80px;
   display: flex;
@@ -623,6 +625,11 @@ margin-top: -35px;
 .video{
   width: 100%;
 }
+
+.title-video{
+  margin-right: 200px;
+}
+
 
 .video-content{
   margin-top: 30px;
@@ -667,15 +674,15 @@ margin-top: -35px;
 }
 
 .slide img{
-  width: 650px;
+  width: 550px;
   border-radius: 20px;
-  margin-left: 70px;
+  margin-left: 130px;
 }
 
 .manual-navigation{
   position: absolute;
   width: 750px;
-  margin-top: 150px;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
 }
@@ -688,51 +695,18 @@ margin-top: -35px;
   transition: 1s;
 }
 
+.title-video {
+  margin-right: 50px;
+}
+
 .manual-btn:not(:last-child){
   margin-right: 40px;
-}
-
-.manual-btn:hover{
-  background-color: #0026ff;
-}
-
-#radio1:checked ~ .first{
-  margin-left: 0;
-}
-
-#radio2:checked ~ .first{
-  margin-left: -20%;
-}
-
-#radio3:checked ~ .first{
-  margin-left: -50%;
-}
-
-#radio4:checked ~ .first{
-  margin-left: -75%;
-}
-
-#radio5:checked ~ .first{
-  margin-left: -100%;
-}
-
-#radio6:checked ~ .first{
-  margin-left: -125%;
-}
-
-
-.navigation-auto div{
-  border: 2px solid rgb(45, 5, 82);
-  padding: 5px 10px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 1s;
 }
 
 .navigation-auto{
   position: absolute;
   width: 750px;
-  margin-top: 550px;
+  margin-top: 450px;
   display: flex;
   justify-content: center;
 }
@@ -740,33 +714,7 @@ margin-top: -35px;
 .navigation-auto div:not(:last-child){
   margin-right: 40px;
 }
-
-#radio1:checked ~ .navigation-auto .auto-btn1{
-  background-color: blue;
-}
-
-#radio2:checked ~ .navigation-auto .auto-btn2{
-  background-color: blue;
-}
-
-#radio3:checked ~ .navigation-auto .auto-btn3{
-  background-color: blue;
-}
-
-#radio4:checked ~ .navigation-auto .auto-btn4{
-  background-color: blue;
-}
-
-#radio5:checked ~ .navigation-auto .auto-btn5{
-  background-color: blue;
-}
-
-#radio6:checked ~ .navigation-auto .auto-btn6{
-  background-color: blue;
-}
-
-
-    
+ 
   .offer-description {
     grid-template-columns: 1fr;
     row-gap: 2rem;
@@ -776,6 +724,10 @@ margin-top: -35px;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  .technical-table__car-identifier img {
+    width: 80%;
+}
 
   .technical-sheet__highlight {
     border-bottom: 1px solid #E1E1E1;
@@ -788,6 +740,13 @@ margin-top: -35px;
 
   .car-data--content-item {
     grid-template-columns: 1fr;
+  }
+
+  .car-data--header {
+    display: flex;
+    list-style-type: none;
+    width: 20px;
+    border-bottom: 1px solid #E1E1E1;
   }
 
   .images-gallery__nav-item img {
@@ -825,24 +784,9 @@ margin-top: -35px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) { /* Responsivity smarthphones */
   
    /* Nav */
-
-   .header {
-    width: 100%;
-    box-shadow: 0 2px 4px rgba(0,0,0,.15);
-    position: relative;
-    z-index: 9999;
-  }
-  
-  .header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 10px;
-  }
-  
   .autoforce-logo {
     height: 45px;
   }
@@ -850,7 +794,7 @@ margin-top: -35px;
   
     /* main */
     .main{
-      margin-top: -20px;
+      margin-top: -150px;
     }
       
       .row{
@@ -889,10 +833,11 @@ margin-top: -35px;
       
       .text-car{
           margin-top: 10px;
+          margin-left: 20px;
           font-weight: bold;
           cursor: default;
           text-align: justify;
-          width: 90%;
+          width: 80%;
       }
       
       .btn{
@@ -908,10 +853,6 @@ margin-top: -35px;
           border-radius: 10px;
       }
       
-      .btn:hover{
-        transition: 0.5s;
-        box-shadow:0 4px 4px rgba(0,0,0,.15)
-      }
       
       .right-main{
           display: flex;
@@ -923,8 +864,8 @@ margin-top: -35px;
       .img-car{
         z-index: 999;
         width: 400px;
-        margin-bottom: 1150px;
-        margin-left: 250px;
+        margin-bottom: 1450px;
+        margin-left: 300px;
       }
       
       .car-price{
@@ -938,7 +879,7 @@ margin-top: -35px;
       /*Text Content */
   
     .content-bottom{
-    margin-top: -800px;
+    margin-top: -1000px;
     width: 100%;
     background: blue;
   }
@@ -961,51 +902,15 @@ margin-top: -35px;
   .bmw-text{
     font-size: 10pt;
   }
-  
-  .video{
-    width: 100%;
-  }
-  
-  .video-content{
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+
   
   /* Image Gallery */
   
-  .gallery-content{
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    border-radius: 20px;
-  }
-  
-  
-  .slider{
-    margin: 0 auto;
-    width: 1280px;
-    height: 720px;
-    overflow: hidden;
-  }
   
   .slides{
     width: 720%;
     height: 400px;
     display: flex;
-  }
-  
-  .slides input{
-    display: none;
-  }
-  
-  .slide{
-    width: 25%;
-    position: relative;
-    transition: 0.5s;
   }
 
   .video h3{
@@ -1026,99 +931,12 @@ margin-top: -35px;
     justify-content: center;
   }
   
-  .manual-btn{
-    border: 2px solid rgb(0, 0, 0);
-    padding: 5px 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-  }
-  
-  .manual-btn:not(:last-child){
-    margin-right: 40px;
-  }
-  
-  .manual-btn:hover{
-    background-color: #0026ff;
-  }
-  
-  #radio1:checked ~ .first{
-    margin-left: 0;
-  }
-  
-  #radio2:checked ~ .first{
-    margin-left: -20%;
-  }
-  
-  #radio3:checked ~ .first{
-    margin-left: -50%;
-  }
-  
-  #radio4:checked ~ .first{
-    margin-left: -75%;
-  }
-  
-  #radio5:checked ~ .first{
-    margin-left: -100%;
-  }
-  
-  #radio6:checked ~ .first{
-    margin-left: -125%;
-  }
-  
-  
-  .navigation-auto div{
-    border: 2px solid rgb(45, 5, 82);
-    padding: 5px 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-  }
-  
   .navigation-auto{
     position: absolute;
     width: 400px;
     margin-top: 310px;
     display: flex;
     justify-content: center;
-  }
-  
-  .navigation-auto div:not(:last-child){
-    margin-right: 40px;
-  }
-  
-  #radio1:checked ~ .navigation-auto .auto-btn1{
-    background-color: blue;
-  }
-  
-  #radio2:checked ~ .navigation-auto .auto-btn2{
-    background-color: blue;
-  }
-  
-  #radio3:checked ~ .navigation-auto .auto-btn3{
-    background-color: blue;
-  }
-  
-  #radio4:checked ~ .navigation-auto .auto-btn4{
-    background-color: blue;
-  }
-  
-  #radio5:checked ~ .navigation-auto .auto-btn5{
-    background-color: blue;
-  }
-  
-  #radio6:checked ~ .navigation-auto .auto-btn6{
-    background-color: blue;
-  }
-  
-  
-
-  .technical-sheet__highlights {
-    grid-template-columns: 1fr;
-  }
-
-  .offer-description h2 {
-    font-size: 2rem;
   }
 
   .technical-table__car-identifier img {
@@ -1154,6 +972,7 @@ margin-top: -35px;
 .footer{
   margin-top: -200px;
 }
+
 }
 
  

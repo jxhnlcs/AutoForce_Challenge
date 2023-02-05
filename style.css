@@ -854,7 +854,7 @@ margin-top: -55px;
       
       .text-car{
           margin-top: 10px;
-          margin-left: 20px;
+          margin-left: 5px;
           font-weight: bold;
           cursor: default;
           text-align: justify;
@@ -894,7 +894,7 @@ margin-top: -55px;
         cursor: default;
         position: absolute;
         margin-bottom: 800px;
-        margin-right: -5px;
+        margin-left: 350px;
       }
   
   

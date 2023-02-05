@@ -590,7 +590,7 @@ margin-top: -55px;
     }
     
     .img-car{
-      margin-right: 120px;
+      margin-right: 135px;
       width: 360px;
       z-index: 999;
     }
@@ -893,14 +893,15 @@ margin-top: -55px;
         z-index: 999;
         cursor: default;
         position: absolute;
-        display: none;
+        margin-bottom: 1500px;
+        margin-right: -5px;
       }
   
   
       /*Text Content */
   
     .content-bottom{
-    margin-top: -1000px;
+    margin-top: -800px;
     width: 100%;
     background: blue;
   }
@@ -982,7 +983,7 @@ margin-top: -55px;
 .car-data--header {
   display: flex;
   list-style-type: none;
-  margin-left: 5px;
+  margin-left: -5px;
   width: 20px;
   border-bottom: 1px solid #E1E1E1;
 }

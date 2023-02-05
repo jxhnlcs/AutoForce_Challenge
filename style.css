@@ -117,6 +117,7 @@ margin-top: -35px;
   margin-bottom: 220px;
   z-index: 999;
   margin-right: 300px;
+  cursor: default;
 }
 
 /*Text Content */
@@ -137,6 +138,7 @@ margin-top: -35px;
   width: 90%;
   margin-left: 100px;
   text-align: justify;
+  cursor: default;
 }
 
 .content-text{
@@ -173,6 +175,10 @@ margin-top: -35px;
 .content-datasheet{
   margin-top: 90px;
   background: blue;
+}
+
+.cartech{
+  cursor: default;
 }
 
 .technical-table {
@@ -258,3 +264,6 @@ margin-top: -35px;
 .car-data--content-item p {
   font-size: 14px;
 }
+
+/* Image Gallery */
+

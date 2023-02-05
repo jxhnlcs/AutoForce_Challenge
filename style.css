@@ -487,6 +487,19 @@ margin-top: -55px;
 
 /* responsivity */
 
+@media screen and (max-width: 1368px) {
+  .all-text{
+    margin-bottom: 50px;
+  }
+
+  .car-price{
+    margin-left: 50px;
+  }
+  .circle{
+    clip-path: circle(200px at right 300px);
+  }
+}
+
 @media screen and (max-width: 950px) {
 
 
@@ -798,12 +811,6 @@ margin-top: -55px;
 
   .footer .social-media {
     grid-area: social;
-  }
-}
-
-@media screen and (max-width: 1368px) {
-  .all-text{
-    margin-bottom: 50px;
   }
 }
 

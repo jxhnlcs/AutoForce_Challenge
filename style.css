@@ -854,7 +854,7 @@ margin-top: -55px;
       
       .text-car{
           margin-top: 10px;
-          margin-left: 5px;
+          margin-left: 15px;
           font-weight: bold;
           cursor: default;
           text-align: justify;
@@ -862,8 +862,8 @@ margin-top: -55px;
       }
       
       .btn{
-        margin-top: 20px;
-        margin-left:35px;
+          margin-top: 20px;
+          margin-left:35px;
           text-decoration: none;
           font-weight: bold;
           font-size: 25px;

@@ -527,7 +527,7 @@ margin-top: -55px;
   /* main */
     
   .main{
-    margin-top: -200px;
+    margin-top: -150px;
   }
     .row{
       flex-direction: row;
@@ -620,7 +620,7 @@ margin-top: -55px;
     /*Text Content */
 
   .content-bottom{
-  margin-top: -400px;
+  margin-top: -300px;
   background: blue;
   padding-bottom: 80px;
   display: flex;
@@ -1017,4 +1017,6 @@ margin-top: -55px;
 
 }
 
- 
+/* Site finalizado 05/02/2023 - 21:16
+Por John Lucas
+--> */

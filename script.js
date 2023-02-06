@@ -41,3 +41,7 @@ function nextImage(){
   }
   document.getElementById("radio"+count).checked = true;
 }
+
+/*Site finalizado 05/02/2023 - 21:16
+Por John Lucas
+*/
